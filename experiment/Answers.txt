@@ -1,0 +1,14 @@
+What were you trying to accomplish? What was the tutorial or inspiration you tried to work with?
+The goal I had with my project was to create an interactive website promoting the UEFA Champions League (RIP the UCL as I'm writing this) by engaging the user with an interactive hangman game featuring all of the teams taking part in the competition.  This in turn could further increase the UCL brand.  My goal was to also attempt to replicate the streamlined aspect of the revamped champions league, while also creating a viable functioning program.  Here was my design and programming inspiration:
+
+https://uclbranding.uefa.com
+http://horton.com/consulting/portfolio/wordQuiz/index.html
+
+What was the most frustrating part of working on this exercise? The most rewarding?
+The most frustrating yet also the most rewarding part of working on this exercise was getting all of the variables to work properly to make this hangman game viable.
+
+Would you do this exercise again?
+Yes, I would.
+
+What would you change if you had another week?
+I would try and make this website a little more streamlined.  I would try and replicate the UCL font seen on the real website as well as fix the layout a little more.
