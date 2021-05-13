@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+html, body, .grid-container { height: 100%; margin: 0; }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    ". . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . ."
+    ". . B B B B B . . . . . . ."
+    ". . Tan Tan Tan Tan Tan . . . . . . ."
+    ". . Tan Tan Tan Tan Tan . . . . . . ."
+    ". . . Red Red Red . . . . . . . ."
+    ". . . Red Red Red . . . . . . . ."
+    ". . . Bl Bl Bl . . . . . . . ."
+    ". . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . .";
+}
+
+.B { grid-area: B;
+background-color: black; }
+
+.Tan { grid-area: Tan;
+background-color: tan; }
+
+.Red { grid-area: Red;
+background-color: red; }
+
+.Bl { grid-area: Bl;
+background-color: blue; }
+
+
+/* For presentation only, no need to copy the code below */
+.grid-container * {
+
+  position: relative;
+}
+
+.grid-container *:after {
+  content:attr(class);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+
+    </style>
+
+</head>
+<body>
+
+    <div class="grid-container">
+        <div class="B"></div>
+        <div class="Tan"></div>
+        <div class="Red"></div>
+        <div class="Bl"></div>
+      </div>
+    
+</body>
+</html>
